@@ -1,0 +1,25 @@
+{
+    "name": "@ko-fi/express-example",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "npx ts-node src/index.ts",
+        "prettier": "npx prettier --write src"
+    },
+    "keywords": [],
+    "author": "oneso",
+    "license": "ISC",
+    "dependencies": {
+        "@ko-fi/express": "../express",
+        "express": "^4.18.2"
+    },
+    "devDependencies": {
+        "@types/express": "^4.17.14",
+        "@types/node": "^18.11.0",
+        "prettier": "^2.7.1",
+        "ts-node": "^10.9.1",
+        "typescript": "^4.8.4"
+    }
+}
