@@ -12,7 +12,7 @@
     "author": "oneso",
     "license": "ISC",
     "dependencies": {
-        "@ko-fi/express": "^1.0.2",
+        "@ko-fi/express": "^1.0.3",
         "express": "^4.18.2"
     },
     "devDependencies": {
