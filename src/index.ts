@@ -28,7 +28,7 @@ kofi(app, {
         console.log('onSubscription called');
     },
     onError: (err, req) => {
-        console.error('onError called');
+        console.error('onError called', err);
     },
     verificationToken: 'token',
 });
